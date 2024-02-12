@@ -23,21 +23,21 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 
 # Add your baseurl here (your repository) but DO NOT CHANGE THE LINE NUMBER without editing .circleci/circle_urls.sh
-baseurl: "/docsy" # the subpath of your site, e.g. /blog
+baseurl: "/docs" # the subpath of your site, e.g. /blog
 
 # This is mostly for testing
-url: "https://icp.me" # the base hostname & protocol for your site
+url: "https://yipianye.github.io" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://icp.me/docsy"
+repo: "https://github.com/yipianye"
 github_user: "vsoch"
 github_repo: "docsy-jekyll"
 github_branch: "master"
 
 # Optional
-twitter: vsoch
-linkedin: vsochat
-dockerhub: vanessa
+twitter: username
+linkedin: username
+dockerhub: username
 
 # These options are used to configure the locations of your version history when you want to serve versioned documents
 version_params:
@@ -68,7 +68,7 @@ feedback: true
 # If commented, will use material hat theme
 # logo: "assets/img/logo/SRCC-square-red.png"
 logo_pixels: 34
-color: "#30638e"
+color: "#f0f8ff"
 # color: "#8c1515" # primary color for header, buttons
 
 # Build settings
